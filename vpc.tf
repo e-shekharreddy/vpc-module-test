@@ -1,0 +1,5 @@
+module "vpc" {
+    source = "git::https://github.com/e-shekharreddy/terraform-aws-vpc.git?ref=main"
+    project = var.project
+    environment = var.env
+}
