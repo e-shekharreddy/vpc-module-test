@@ -1,10 +1,9 @@
 variable "project" {
-    type = string
     default = "roboshop"
   
 }
 
-variable "env" {
-    type = string
+variable "environment" {
     default = "dev"
 }
+
